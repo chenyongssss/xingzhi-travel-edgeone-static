@@ -20,7 +20,7 @@ const html = String.raw`<!doctype html>
   <meta name="description" content="输入目的地、人数、预算和偏好，生成自由行路线、预算、美食、住宿区域和行前清单。" />
   <meta property="og:title" content="行知旅行｜自由行规划工具" />
   <meta property="og:description" content="输入目的地、人数、预算和偏好，生成可打印的自由行路线、预算、美食和住宿建议。" />
-  <meta property="og:image" content="./og.png" />
+  <meta property="og:image" content="./favicon.svg" />
   <style>
     :root{--ink:#182b26;--muted:#66756f;--paper:#f8f5ed;--cream:#eee7d8;--orange:#ef653b;--green:#194f44;--line:#d9d3c5}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Microsoft YaHei",sans-serif}button,input,select{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}
