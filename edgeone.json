@@ -1,0 +1,6 @@
+{
+  "installCommand": "echo skip install",
+  "buildCommand": "mkdir -p out && cp index.html out/index.html && cp 404.html out/404.html && cp robots.txt out/robots.txt && cp favicon.svg out/favicon.svg",
+  "outputDirectory": "out",
+  "nodeVersion": "22.11.0"
+}
