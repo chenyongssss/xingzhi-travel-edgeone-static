@@ -1,21 +1,15 @@
-# 行知旅行 EdgeOne 静态版
+# 行知旅行 EdgeOne 单页静态版
 
-这是行知旅行给腾讯云 EdgeOne Pages 准备的纯静态发布仓库。
-
-它不依赖 Next、Vinext、Cloudflare Workers，也没有服务端接口；适合先在国内访问环境里试水。
+这是给腾讯云 EdgeOne Pages 准备的最简静态仓库：根目录直接包含 `index.html`，不需要安装依赖，不需要构建命令。
 
 ## EdgeOne Pages 配置
 
 - 框架预设：Other
 - 根目录：./
-- 安装命令：npm install
-- 构建命令：npm run build
-- 输出目录：out
-- Node.js：22.11.0
+- 安装命令：留空
+- 构建命令：留空
+- 输出目录：./
 
-## 本地构建
+如果控制台不允许留空输出目录，就填：`./`
 
-```bash
-npm install
-npm run build
-```
+这个仓库用于先跑通一个国内可打开页面；完整 AI/Next 版本仍在主仓库 `xingzhi-travel`。
