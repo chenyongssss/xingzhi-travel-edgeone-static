@@ -11,6 +11,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Check static files
+        run: |
+          pwd
+          ls -la
+          test -f index.html
+          test -f 404.html
+          test -f favicon.svg
+          test -f robots.txt
+      - name: Check EdgeOne CLI
+        run: npx edgeone --version
       - name: Deploy to EdgeOne Pages
         run: npx edgeone pages deploy ./ -n xingzhi-travel -t "$EDGEONE_API_TOKEN" -e production
         env:
